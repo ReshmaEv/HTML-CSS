@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        table{
+            margin-left: 500px;
+            border-spacing: 50px;
+        }
+        .input{
+            margin-left: 200px;
+        }
+        
+    </style>
+</head>
+<body style="background-color: lightblue;">
+    <h2>BIODATA</h2>
+    <table>
+        <tr>
+            <td>Name <td> <span>:</span> <td><input type="text" name="text"></td>
+           
+        </tr>
+        
+    
+        <tr>
+            <td>Address <td><span>:</span> <td><input type="text" name="text"></td>
+        </tr>
+        
+        <tr>
+            <td>Age<td><span>:</span> <td><input type="number" name="number"></td>
+        </tr>
+        <tr>
+            <td>Gender<td><span>:</span> <td><input type="radio" id="male" name="gender" >
+                 <label for="male">Male</label>
+                 <input type="radio" id="female" name="gender">
+                 <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Dob <td><span>:</span> <td><input type="date" name="date"></td>
+         </tr>
+         <tr>
+            <td>Email<td><span>:</span> <td><input type="Email" name="Email"></td>
+         </tr>
+         <tr>
+            <td>Pincode <td><span>:</span> <td><input type="number" name="pincode"></td>
+         </tr>
+         <tr>
+            <td>State <td><span>:</span> <td><input type="text" name="text"></td>
+         </tr>
+         <tr>
+            <td><label for="district">District</label> <td><span>:</span> <td>
+                
+              <select name="district" id="district">
+                <option value="thrissur">Thrissur</option>
+                <option value="calicut">Calicut</option>
+                <option value="palakad">Palakad</option>
+                <option value="kannur">kannur</option>
+             </select>
+            </td>
+        </tr>
+            <tr>
+                <td><label for="Qualification">Qualification</label><td><span>:</span>
+                <td><select name="qualification" id="qualification">
+                    <option value="bca">BCA</option>
+                    <option value="mca">MCA</option>
+                    <option value="BTECH">BTECH</option>
+                    <option value="mtech">MTECH</option>
+                 </select>
+              </td>
+            </tr>
+            <tr>
+                <td>Hobbies <td><span>:</span> <td><input type="checkbox" name="text">
+                <label for="reading">reading</label>
+                <input type="checkbox">
+                <label for="drawing">drawing</label>
+                <input type="checkbox">
+                <label for="singing">singing</label></td>
+            </tr>
+            <tr>
+                <td>Language <td><span>:</span> <td><input type="checkbox" name="text">
+                    <label for="english">English</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="malayalam">malayalam</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="hindi">Hindi</label>
+                    <br>
+                    <input type="checkbox">
+                     <label for="tamil">Tamil</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Photo<td><span>:</span> <td><input type="file" name="file" value="choose a file"></td>
+            </tr>
+            <tr>
+               <td > </td>
+               <td > </td>
+               <td><input   type="submit" value="Register"></td>
+            </tr>
+        
+            
+       
+        
+    </table>
+</body>
+</html>
